@@ -1,4 +1,4 @@
-#Github .yml commands
+#Github .yml commands for github actions
 name: Playwright Tests
 
 on:
