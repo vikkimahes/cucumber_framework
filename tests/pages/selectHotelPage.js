@@ -12,7 +12,7 @@ class SelectHotelPage {
     await this.continueButton.click();
   }
   async verifyBookHotelPage() {
-    await expect(this.page).toHaveTitle("Adactin.com - Select Hotel");
+    await expect(this.page).toHaveTitle("Adactin.com - Book A Hotel");
   }
 }
 module.exports = { SelectHotelPage };
